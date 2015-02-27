@@ -5,7 +5,7 @@ def destinations
 end
 
 XCJobs::Test.new('test:ios') do |t|
-  t.workspace = 'SwiftGif'
+  t.project = 'SwiftGif'
   t.scheme = 'SwiftGif'
   t.configuration = 'Debug'
   t.build_dir = 'build'
